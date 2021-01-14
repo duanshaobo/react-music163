@@ -1,0 +1,64 @@
+.play-container {
+    position: relative;
+    background: #7F7F7F;
+    color: #FFF;
+    overflow: hidden;
+}
+.play-tools{
+    position: absolute;
+    top:0;
+    left:50%;
+    height: 200px;
+    width: 120px;
+    background: url('../imgs/needle-ip6.png') no-repeat;
+    background-size: 100%;
+    z-index: 1;
+    transform-origin: left top;
+    /* transform: rotate(-15deg); */
+    transition: all 1s;
+}
+.play-box {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background: url('../imgs//disc-ip6.png');
+    background-size: 100% 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:80px;
+}
+
+.play-box img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    background: url('../imgs/list_sprite.png');
+    background-size: 50px auto;
+}
+
+.btn-play {
+    background-position: 0 0;
+}
+
+.btn-pause {
+    background-position: 0 -52px;
+}
+.content{
+    text-align: center;
+}
+.content h3{
+    color:#FFF;
+    font-size: 20px;
+    font-weight: 700;
+}

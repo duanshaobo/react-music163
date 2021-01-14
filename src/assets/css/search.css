@@ -1,0 +1,9 @@
+.search-container{
+    padding:10px;
+}
+.search-container .ant-input-affix-wrapper{
+    border-radius: 20px;
+}
+.search-container .hot-keywords .ant-btn {
+    margin:5px;
+}

@@ -1,0 +1,35 @@
+.layout-container .header{
+    position: relative;
+}
+.layout-container .site-page-header{
+    background-color: #FF4B00!important;
+}
+.layout-container .ant-page-header-heading-title{
+    color:#FFF!important;
+}
+.layout-container .btn-download{
+    position:absolute!important;
+    top:50%;
+    transform: translateY(-50%);
+    right:10px;
+    color:#FF4B00!important;
+    font-weight: 700!important;
+    border:0!important;
+}
+
+/* 导航 */
+.layout-container .navbar{
+    display: flex;
+    height: 60px;
+}
+.layout-container .navbar a{
+    flex:1;
+    line-height: 60px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    color:#666;
+} 
+.layout-container .navbar a.active{
+    border-bottom:2px solid #FF4B00;
+}
